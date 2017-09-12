@@ -6,5 +6,5 @@ Data source: https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData
 * D3  
 * Sass  
 
-[Link to the chart](https://github.com/mar-bi/CyclistScatterplotD3/index.html)
+[Link to the chart](https://mar-bi.github.io/CyclistScatterplotD3/index.html)
 
