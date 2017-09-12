@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  background: url("../img/bike1.jpg") left top no-repeat;
+  background-size: cover;
+  background-color: #E7E0CB; }
+
+a {
+  text-decoration: none; }
+  a:visited {
+    color: #e6e6e6; }
+
+h1 {
+  font-size: 2em;
+  text-align: center; }
+
+#source {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666; }
+
+svg {
+  display: block;
+  background-color: rgba(247, 249, 251, 0.7);
+  margin: 0 auto; }
+
+circle {
+  stroke: #333;
+  stroke-width: 1; }
+
+.tooltip {
+  background: #fff;
+  max-width: 150px;
+  border-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px; }
+  .tooltip p {
+    font-size: 0.7em;
+    font-weight: 600;
+    margin: 5px 0;
+    text-align: left; }
+    .tooltip p span {
+      font-size: 1.2em;
+      font-weight: 400; }
+
+.chart-name {
+  fill: #000;
+  font-size: 1.4em;
+  font-weight: 600; }
+
+.chart-extra {
+  fill: #36aafd;
+  font-size: 1.2em;
+  font-weight: 600; }
+
+.span {
+  font-size: 1em;
+  font-weight: 400; }
+
+.axis-title {
+  font-size: 1em;
+  font-weight: 500; }
+
+.chart-comment {
+  font-size: 0.75em;
+  fill: #666; }
+
+.data-name {
+  font-size: 0.7em; }
+
+.legend-text {
+  font-size: 0.8em; }
+
+footer {
+  color: #e6e6e6; }
+  footer p {
+    text-align: center;
+    font-size: 0.9em; }
+
+/*# sourceMappingURL=style.css.map */

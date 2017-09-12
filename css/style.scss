@@ -1,0 +1,110 @@
+
+//variables
+$link_color: darken(#fff, 10%);
+$svg_background: rgba(247,249,251,0.7);
+//mixins
+@mixin border($width, $bord-color, $radius:0) {
+	border: {
+		color: $bord-color;
+		width: $width;
+		style: solid;
+	};
+	border-radius: $radius;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+//general style
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 16px;
+	background: url('../img/bike1.jpg') left top no-repeat;
+	background-size: cover; 
+	background-color: #E7E0CB;
+}
+
+a {
+	text-decoration: none;
+	&:visited {
+		color: $link_color; 
+	}
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+#source {
+	text-align: center;
+	font-size: 0.9em;
+	color: #666;
+}
+
+svg {
+	display: block;
+	background-color: $svg_background;
+	margin: 0 auto;
+}
+
+circle {
+	stroke: #333;
+	stroke-width: 1;
+}
+
+.tooltip {
+	background: #fff;
+	max-width: 150px;
+	@include border(1px, #fff, 3px);
+	p {
+		font-size: 0.7em;
+		font-weight: 600;
+		margin: 5px 0;
+		text-align: left;
+		span {
+			font-size: 1.2em;
+			font-weight: 400;
+		}
+	}
+}
+
+.chart-name {
+	fill: #000;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.chart-extra {
+	fill: #36aafd;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+.span {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.axis-title {
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.chart-comment {
+	font-size: 0.75em;
+	fill: #666;
+}
+
+.data-name {
+	font-size: 0.7em;
+}
+
+.legend-text {
+	font-size: 0.8em;
+}
+
+footer {
+	color: $link_color;
+	p {
+		text-align: center;
+		font-size: 0.9em;
+	}
+}
